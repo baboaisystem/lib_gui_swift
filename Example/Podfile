@@ -1,0 +1,19 @@
+platform :ios, '13'
+use_modular_headers!
+
+target 'GuiKitExample' do
+  pod 'ActionSheet.swift', :path => '../'
+  pod 'HUD.swift', :path => '../'
+  pod 'SectionsTableView.swift', :path => '../'
+  pod 'UIExtensions.swift', :path => '../'
+  pod 'Chart.swift', :path => '../'
+  pod 'ThemeKit.swift', git: 'https://github.com/baboaisystem/lib_component_swift/'
+end
+
+target 'GuiKitTests' do
+  pod 'ActionSheet.swift', :path => '../'
+  pod 'HUD.swift', :path => '../'
+  pod 'SectionsTableView.swift', :path => '../'
+  pod 'UIExtensions.swift', :path => '../'
+  pod 'Chart.swift', :path => '../'
+end
